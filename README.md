@@ -1,3 +1,7 @@
+## Wave 
+![Screenshot 2024-07-16 095207](https://github.com/user-attachments/assets/dbaa216e-97ba-41f6-9d2c-3f2a70e084b6)
+
+
 Technical Specifications
 ## Backend
 Database Management: Utilizes MySQL for robust and scalable data storage, ensuring efficient handling of hotel and lounge information.
