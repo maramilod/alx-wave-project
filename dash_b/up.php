@@ -24,6 +24,6 @@ if (isset($_POST['update'])) {
       mysqli_query($conn, $update);
   }
   header('location: offers.php');
-  exit();
+
 }
 ?>
