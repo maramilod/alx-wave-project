@@ -94,7 +94,7 @@ if (isset($_POST['delete_image'])) {
    $fetch_old_pic = $select_old_pic->fetch(PDO::FETCH_ASSOC);
 
    if ($fetch_old_pic['image'] == '') {
-      $warning_msg[] = 'تم حذف الصورة مسبقا';
+      $warning_msg[] = 'The photo has already been deleted';
    } else {
       $update_old_pic = $con->prepare("UPDATE `clients` SET image = ? WHERE id = ?");
       $update_old_pic->execute(['', $user_id]);
