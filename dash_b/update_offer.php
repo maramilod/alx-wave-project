@@ -22,7 +22,7 @@
                 <li>
                     <a href="dash.php">
                         <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-                        <span class="title"> Dashboard</span>
+                        <span class="title"> Update Dashboard</span>
                     </a>
                 </li>
 
