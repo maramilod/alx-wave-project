@@ -96,7 +96,7 @@ session_start();
     </div>
   </div>
   <!-------x------- Wave Shape -------x------->
- 
+
   <!--------------- Cards ------------>
   <main>
     <section>
@@ -160,13 +160,12 @@ session_start();
 <article class="level-slider-item">
 <div class="imageslider">
   <img src="<?php echo $imagePath ; ?>" alt="" />
-                 <?php 
+                <?php 
                  $images = mysqli_query($conn, "SELECT * FROM  portfolio WHERE Host='$host'");
             if (mysqli_num_rows($images) > 0) {
               while ($rowi = mysqli_fetch_assoc($images)) {?>
-             
                     <img src="<?php echo $rowi["Image"]; ?>" alt="" />
-                 
+                
                     <?php }
             } ?>   </div>
                     <div class="level-slider-item-container">
@@ -315,8 +314,6 @@ session_start();
       if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
           $post_id = $row['id'];
-         
-        
 
           $count_reviews = $con->prepare("SELECT * FROM `reviews` WHERE post_id = ?");
           $count_reviews->execute([$post_id]);
@@ -332,7 +329,7 @@ session_start();
             for ($i = 1; $i < 2; $i++) {
               $ROW = mysqli_fetch_array($images);
                   ?> <div class="carousel-item active">
-         <img src="<?php echo "$ROW[Image]"; ?>" alt="" /> </div>
+          <img src="<?php echo "$ROW[Image]"; ?>" alt="" /> </div>
       <?php 
       }
       while ($ROW = mysqli_fetch_array($images)) {
@@ -342,12 +339,6 @@ session_start();
     }}
               ?>
               </div>
-             
-   
-   
-    
-   
- 
   </div>
 
 </div>
