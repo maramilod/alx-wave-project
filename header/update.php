@@ -82,7 +82,7 @@ if (isset($_POST['submit'])) {
             $warning_msg[] = 'The password was not confirmed correctly';
          }
       } else {
-         $warning_msg[] = 'كلمة المرور غير صحيحه';
+         $warning_msg[] = ' The password is incorrect  ';
       }
    }
 }
