@@ -50,7 +50,7 @@ if (isset($_POST['submit'])) {
                 unlink($file);
             }
          }
-         $success_msg[] = 'تم تحديث الصورة الشخصية';
+         $success_msg[] = ' The profile picture updated successfully';
       }
    }
 
