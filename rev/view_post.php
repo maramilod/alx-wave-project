@@ -285,8 +285,6 @@ if (isset($_POST['delete_review'])) {
    <!-- sweetalert cdn link  -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 
-   
-
    <?php include '../components/alers.php'; ?>
 
 </body>

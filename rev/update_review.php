@@ -93,5 +93,5 @@ if(isset($_POST['submit'])){
 
 <?php include '../components/alers.php'; ?>
 
-</body>
+   </body>
 </html>
