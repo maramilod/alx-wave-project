@@ -33,17 +33,16 @@ html{
 }
 /**slider*/
 
- 
- .container {
+.container {
    max-width: 1200px;
    width: 95%;
- }
- 
- .slider-wrapper {
+}
+
+.slider-wrapper {
    position: relative;
- }
- 
- .slider-wrapper .slide-button {
+}
+
+.slider-wrapper .slide-button {
    position: absolute;
    top: 50%;
    outline: none;
@@ -60,9 +59,9 @@ html{
    justify-content: center;
    border-radius: 50%;
    transform: translateY(-50%);
- }
- 
- .slider-wrapper .slide-button:hover {
+}
+
+.slider-wrapper .slide-button:hover {
    background: #404040;
  }
  
@@ -627,34 +626,6 @@ right: 0;
    color: var(--light-color);
    line-height: 1.5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 
