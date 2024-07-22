@@ -41,7 +41,7 @@ if(isset($_POST['submit'])){
       if($c_pass == 1){
          $insert_user = $con->prepare("INSERT INTO `clients`(id, name, email, password, image) VALUES(?,?,?,?,?)");
          $insert_user->execute([$id, $name, $email, $pass, $rename]);
-         $success_msg[] = 'تم انشاء الحساب بنجاح';
+         $success_msg[] = 'The account was successfully created ';
       }else{
          $warning_msg[] = 'لم يتم تأكيد كلمة المرور بشكل صحيح';
       }
