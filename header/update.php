@@ -79,7 +79,7 @@ if (isset($_POST['submit'])) {
                $success_msg[] = 'Password updated successfully   ';
             }
          } else {
-            $warning_msg[] = 'لم يتم تأكيد كلمة المرور بشكل صحيح';
+            $warning_msg[] = 'The password was not confirmed correctly';
          }
       } else {
          $warning_msg[] = 'كلمة المرور غير صحيحه';
