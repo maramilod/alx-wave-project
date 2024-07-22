@@ -37,8 +37,8 @@
             <?php } else { ?>
                <div class="flex-btn">
                   <p>please login or register!</p>
-                  <a href="../header/login.php" class="inline-option-btn">تسجيل الدخول</a>
-                  <a href="../header/register.php" class="inline-option-btn">انشاء حساب</a>
+                  <a href="../header/login.php" class="inline-option-btn"> Sign in</a>
+                  <a href="../header/register.php" class="inline-option-btn">Create account </a>
                </div>
             <?php }; ?>
          </div>
