@@ -1,11 +1,3 @@
-
-
-console.log("مرحباً بالعالم");
-
-
-
-
-
 const wrapper = document.querySelector('.wrapper');
 const iconClose = document.querySelector('.icon-close');
 const btnP = document.querySelector('.btnLogin-popup');
@@ -97,15 +89,15 @@ $(window).on('load', function(){
             {
                 breakpoint: 450,
                 settings: {
-                   slidesToShow: 1,
-                   slidesToScroll: 1
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
     });
- });
- 
- $(window).on('load', function(){
+});
+
+$(window).on('load', function(){
     $('.imageslider').slick({
         lazyLoad: 'ondemand',
         dots: true,
@@ -116,7 +108,7 @@ $(window).on('load', function(){
         fade: true,
         arrows: false
     });
- });
+});
 
 
 
@@ -130,10 +122,9 @@ $(window).on('load', function(){
         autoplay: true,
         autoplaySpeed: 5000,
         arrows: false,
-         vertical: true, 
+        vertical: true, 
     });
- });
- 
+});
 
 $(".col-md-4").slice(0, 6).show();
 if($(".col-md-4").length <=6)

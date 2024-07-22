@@ -1,7 +1,4 @@
 
-
-
-console.log("مرحباً بالعالم");
 const wrapper = document.querySelector('.wrapper');
 const iconClose = document.querySelector('.icon-close');
 const btnP = document.querySelector('.btnLogin-popup');
@@ -48,10 +45,10 @@ $(window).on('load', function(){
         autoplay: false,
         autoplaySpeed: 2000,
         arrows: false,
-         vertical: true, 
+        vertical: true, 
     });
- });
- 
+});
+
 
 
 $(".col-md-4").slice(0, 6).show();
