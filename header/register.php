@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
 
    if(!empty($image)){
       if($image_size > 2000000){
-         $warning_msg[] = 'الصورة كبيرة الحجم';
+         $warning_msg[] = 'The images is large';
       }else{
          move_uploaded_file($image_tmp_name, $image_folder);
       }
@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
    $verify_email->execute([$email]);
 
    if($verify_email->rowCount() > 0){
-      $warning_msg[] = 'البريد الالكتروني مرتبط بحساب اخر';
+      $warning_msg[] = ' This email address already been used';
    }else{
       if($c_pass == 1){
          $insert_user = $con->prepare("INSERT INTO `clients`(id, name, email, password, image) VALUES(?,?,?,?,?)");
