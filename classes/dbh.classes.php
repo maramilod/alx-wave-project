@@ -1,5 +1,5 @@
 <?php
-
+/** Modify these variable to suit u */
 $sname = "localhost";
 $uname = "root";
 $password = "";
