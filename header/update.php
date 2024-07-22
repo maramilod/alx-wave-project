@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
    if (!empty($name)) {
       $update_name = $con->prepare("UPDATE `clients` SET name = ? WHERE id = ?");
       $update_name->execute([$name, $user_id]);
-      $success_msg[] = 'تم تحديث اسم المستخدم';
+      $success_msg[] = '  Username updated successfully ';
    }
 
    if (!empty($email)) {
@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
       if ($verify_email->rowCount() == 0) {
          $update_email = $con->prepare("UPDATE `clients` SET email = ? WHERE id = ?");
          $update_email->execute([$email, $user_id]);
-         $success_msg[] = 'تم تحديث البريد الالكتروني';
+         $success_msg[] = 'Email updated successfully ';
       }
    }
 
