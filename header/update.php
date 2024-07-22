@@ -76,7 +76,7 @@ if (isset($_POST['submit'])) {
             if ($empty_new != 1) {
                $update_pass = $con->prepare("UPDATE `clients` SET password = ? WHERE id = ?");
                $update_pass->execute([$new_pass, $user_id]);
-               $success_msg[] = 'تم تحديث كلمة المرور';
+               $success_msg[] = 'Password updated successfully   ';
             }
          } else {
             $warning_msg[] = 'لم يتم تأكيد كلمة المرور بشكل صحيح';
