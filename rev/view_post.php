@@ -263,8 +263,8 @@ if (isset($_POST['delete_review'])) {
                   <?php if ($fetch_review['user_id'] == $user_id) { ?>
                      <form action="" method="post" class="flex-btn">
                         <input type="hidden" name="delete_id" value="<?= $fetch_review['id']; ?>">
-                        <a href="update_review.php?get_id=<?= $fetch_review['id']; ?>" class="inline-option-btn">تعديل التقييم</a>
-                        <input type="submit" value="حذف التقييم" class="inline-delete-btn" name="delete_review" onclick="return confirm('delete this review?');">
+                        <a href="update_review.php?get_id=<?= $fetch_review['id']; ?>" class="inline-option-btn"> Update Review</a>
+                        <input type="submit" value="Delete Review " class="inline-delete-btn" name="delete_review" onclick="return confirm('delete this review?');">
                      </form>
                   <?php }; ?>
                </div>
