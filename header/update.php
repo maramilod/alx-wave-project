@@ -101,7 +101,7 @@ if (isset($_POST['delete_image'])) {
       if ($fetch_old_pic['image'] != '') {
          unlink('../images/' . $fetch_old_pic['image']);
       }
-      $success_msg[] = 'تم حذف الصورة';
+      $success_msg[] = 'The image deleted successfully ';
    }
 }
 
